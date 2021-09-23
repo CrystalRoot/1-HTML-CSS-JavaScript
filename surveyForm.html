@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <title>Survey Form</title>
+    <link rel="stylesheet" href="css/survey.css" />
 </head>
 <body>
     <h1>Survey</h1>
-    <form action= "https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+    <form class="survey-form" action= "https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
         <fieldset>
             <legend>Your Information</legend>
             <div>
@@ -43,7 +44,7 @@
                 <label for="iguana">Iguana</label>
             </div>
         </fieldset>
-        <input type="submit" />
+        <input id="submit-btn" type="submit" />
     </form>
 </body>
 </html>
